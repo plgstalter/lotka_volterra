@@ -3,8 +3,8 @@ Projet numérique
 
 Les équations de Lotka-Volterra, ou "modèle proie-prédateur", sont couramment utilisées pour décrire la dynamique de systèmes biologiques dans lesquels un prédateur et sa proie interagissent dans un milieu commun.  Elles ont été proposées indépendamment par A. J. Lotka en 1925 et V. Volterra en 1926 et s'écrivent de la manière suivante :
 $\begin{cases}
-\dot{x}_1%20&=%20x_1(\alpha%20-\beta%20x_2)%20\\
-\dot{x}_2%20&=%20-x_2(\gamma%20-%20\delta%20x_1)
+\dot{x}_1 &= x_1(\alpha -\beta x_2) \\
+\dot{x}_2 &= -x_2(\gamma - \delta x_1)
 \end{cases}$
 où $x_1$ et $x_2$ désignent le nombre (positif) de proies et de prédateurs respectivement et $\alpha$, $\beta$, $\gamma$, $\delta$ sont des paramètres strictement positifs.
 
